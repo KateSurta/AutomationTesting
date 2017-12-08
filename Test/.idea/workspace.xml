@@ -39,23 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasicTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/BasicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPageTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginPageTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+            <state relative-caret-position="391">
+              <caret line="173" column="53" lean-forward="false" selection-start-line="173" selection-start-column="53" selection-end-line="173" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,13 +106,13 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/BasicTestForIE.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/BasicTestForChrome.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/LoginPageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/DefaultPages.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/BasicTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/LoginPageTests.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1572" />
     <option name="y" value="66" />
     <option name="width" value="1378" />
@@ -525,21 +523,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginPageTests - 2017.12.07 at 16h 29m 23s.xml">
-      <configuration name="LoginPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTests - 2017.12.07 at 16h 32m 07s.xml">
-      <configuration name="LoginPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTests - 2017.12.07 at 16h 43m 55s.xml">
-      <configuration name="LoginPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTests - 2017.12.07 at 16h 55m 54s.xml">
-      <configuration name="LoginPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTests - 2017.12.07 at 17h 09m 39s.xml">
-      <configuration name="LoginPageTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginPageTests - 2017.12.07 at 17h 18m 25s.xml">
       <configuration name="LoginPageTests" configurationId="TestNG" />
     </history-entry>
@@ -555,9 +538,24 @@
     <history-entry file="LoginPageTests - 2017.12.08 at 11h 17m 56s.xml">
       <configuration name="LoginPageTests" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LoginPageTests - 2017.12.08 at 12h 47m 09s.xml">
+      <configuration name="LoginPageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTests - 2017.12.08 at 12h 48m 01s.xml">
+      <configuration name="LoginPageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTests - 2017.12.08 at 12h 49m 22s.xml">
+      <configuration name="LoginPageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTests - 2017.12.08 at 12h 50m 58s.xml">
+      <configuration name="LoginPageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTests - 2017.12.08 at 12h 53m 39s.xml">
+      <configuration name="LoginPageTests" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1272" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1272" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -994,20 +992,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginPageTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BasicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BasicTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="391">
+          <caret line="173" column="53" lean-forward="false" selection-start-line="173" selection-start-column="53" selection-end-line="173" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
