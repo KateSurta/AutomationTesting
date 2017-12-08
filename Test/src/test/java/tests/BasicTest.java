@@ -13,6 +13,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -21,11 +22,12 @@ public class BasicTest {
     public static final String START_URL = "https://ec3admindev.mybluemix.net";
     public static final By HOME_PANEL = By.cssSelector("#navbar");
 
-    protected static WebDriver driver;
+    WebDriver driver;
 
 
 
-    public static WebDriver getDriver() {
+
+    /*public static WebDriver getDriver() {
 
         if (driver == null) {
             setChromeDriver();
@@ -82,19 +84,63 @@ public class BasicTest {
         driver = browser;
 
     }
-
-
-
-
-
+*/
     @BeforeClass(description = "Start browser")
-    public void setUp() {
-        getDriver().get(START_URL);
-        WebElement expectedElement = (new WebDriverWait(driver, 5)).until(new ExpectedCondition<WebElement>() {
-            public WebElement apply(WebDriver webDriver) {
-                return webDriver.findElement(HOME_PANEL);
+        @Parameters("browser")
+        public void setUp(String browser) throws Exception{
+            //Check if parameter passed from TestNG is 'firefox'
+            if(browser.equalsIgnoreCase("chrome")){
+                System.setProperty("webdriver.chrome.driver", "d:\\surta_kate\\Automation Testing\\Test\\chromedriver\\chromedriver.exe");
+                //ChromeOptions options = new ChromeOptions();
+                //ptions.setCapability("marionette",true);
+                driver = new ChromeDriver();
+                //create firefox instance
+
 
             }
+            //Check if parameter passed as 'chrome'
+            else if(browser.equalsIgnoreCase("firefox")){
+
+                String exePath =  "d:\\surta_kate\\Automation Testing\\Test\\firefoxdriver\\geckodriver.exe";
+                System.setProperty("webdriver.gecko.driver", exePath);
+                DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+                capabilities.setCapability("marionette",true);
+                driver = new FirefoxDriver();
+
+            }
+            //Check if parameter passed as 'Edge'
+           /* else if(browser.equalsIgnoreCase("Edge")){
+                //set path to Edge.exe
+                System.setProperty("webdriver.edge.driver","d:\\surta_kate\\Automation Testing\\Test\\MicrocoftDriver\\MicrosoftWebDriver.exe");
+                EdgeOptions options = new EdgeOptions();
+                options.getCapability("marionette");
+                driver = new EdgeDriver(options);
+            }
+            */
+            else if(browser.equalsIgnoreCase("opera")){
+                //set path to Edge.exe
+                String operaChromiumDriver = "d:\\surta_kate\\Automation Testing\\Test\\OperaDriver\\operadriver.exe";
+                String operaBrowserLocation = "c:\\Program Files\\Opera\\49.0.2725.47\\opera.exe";
+                System.setProperty("webdriver.opera.driver", operaChromiumDriver);
+                ChromeOptions options = new ChromeOptions();
+                options.setBinary(operaBrowserLocation);
+
+                //DesiredCapabilities capabilities = new DesiredCapabilities();
+                //capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+                OperaDriver browser_1 = new OperaDriver();
+                driver = browser_1;
+            }
+
+            else{
+                //If no browser passed throw exception
+                throw new Exception("Browser is not correct");
+            }
+            driver.get(START_URL);
+                WebElement expectedElement = (new WebDriverWait(driver, 5)).until(new ExpectedCondition<WebElement>() {
+                public WebElement apply(WebDriver webDriver) {
+                return webDriver.findElement(HOME_PANEL);
+            }
+
 
 
         });
