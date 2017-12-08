@@ -52,8 +52,8 @@
       <file leaf-file-name="LoginPageTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="188" column="74" lean-forward="false" selection-start-line="188" selection-start-column="74" selection-end-line="188" selection-end-column="74" />
+            <state relative-caret-position="391">
+              <caret line="173" column="53" lean-forward="false" selection-start-line="173" selection-start-column="53" selection-end-line="173" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -523,21 +523,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginPageTests - 2017.12.07 at 16h 29m 23s.xml">
-      <configuration name="LoginPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTests - 2017.12.07 at 16h 32m 07s.xml">
-      <configuration name="LoginPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTests - 2017.12.07 at 16h 43m 55s.xml">
-      <configuration name="LoginPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTests - 2017.12.07 at 16h 55m 54s.xml">
-      <configuration name="LoginPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTests - 2017.12.07 at 17h 09m 39s.xml">
-      <configuration name="LoginPageTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginPageTests - 2017.12.07 at 17h 18m 25s.xml">
       <configuration name="LoginPageTests" configurationId="TestNG" />
     </history-entry>
@@ -551,6 +536,21 @@
       <configuration name="LoginPageTests" configurationId="TestNG" />
     </history-entry>
     <history-entry file="LoginPageTests - 2017.12.08 at 11h 17m 56s.xml">
+      <configuration name="LoginPageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTests - 2017.12.08 at 12h 47m 09s.xml">
+      <configuration name="LoginPageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTests - 2017.12.08 at 12h 48m 01s.xml">
+      <configuration name="LoginPageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTests - 2017.12.08 at 12h 49m 22s.xml">
+      <configuration name="LoginPageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTests - 2017.12.08 at 12h 50m 58s.xml">
+      <configuration name="LoginPageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTests - 2017.12.08 at 12h 53m 39s.xml">
       <configuration name="LoginPageTests" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1002,8 +1002,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="188" column="74" lean-forward="false" selection-start-line="188" selection-start-column="74" selection-end-line="188" selection-end-column="74" />
+        <state relative-caret-position="391">
+          <caret line="173" column="53" lean-forward="false" selection-start-line="173" selection-start-column="53" selection-end-line="173" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

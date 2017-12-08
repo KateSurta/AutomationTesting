@@ -160,13 +160,9 @@ public class LoginPageTests extends BasicTest {
         new DefaultPages(driver).inputPassword(" ");
         new DefaultPages(driver).clickButtonSingIn();
         String titleErrorlog  = new DefaultPages(driver).getLoginMessage();
-        String titleErrorpass = new DefaultPages(driver).getPasswordMessage();
-        System.out.println("Expected result 'Test A9': "+ errorMessagelog +".");
+        System.out.println("Expected result 'Test A9': "+ errorMessage +".");
         System.out.println("Actual result 'Test A9': "+ titleErrorlog +".");
-        System.out.println("Expected result 'Test A9': "+ errorMessagepas +".");
-        System.out.println("Actual result 'Test A9': "+ titleErrorlog +".");
-        Assert.assertEquals(errorMessagelog, titleErrorlog);
-        Assert.assertEquals(errorMessagepas, titleErrorpass);
+        Assert.assertEquals(errorMessage, titleErrorlog);
         new DefaultPages(driver).Refresh();
     }
 
